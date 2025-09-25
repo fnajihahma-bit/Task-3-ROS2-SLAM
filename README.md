@@ -1,7 +1,14 @@
 # Task-3-ROS2-SLAM
 (Simultaneous Localization and Mapping) with TurtleBot3
 
+## 🙋 Submitted By
+
+- **Name:** Fatin Najihah Binti Mat Ali  
+- **Student ID:** 2024853488
+
 ## 🗂️ Repo Structure
+
+```markdown
 /week3_task_ros2/
 ├─ README.md # Steps for SLAM in simulation & real robot
 ├─ img/
@@ -18,7 +25,7 @@
 │ ├─ sim_slam_demo.mp4
 │ └─ real_slam_demo.mp4
 └─ reflection.pdf # Short reflection (200–300 words)
-
+```
 ---
 
 ## 🧪 Mapping with SLAM in Simulation (Gazebo + Cartographer)
