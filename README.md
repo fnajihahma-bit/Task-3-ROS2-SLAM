@@ -99,10 +99,7 @@ This repository documents the step-by-step setup and bringup process for using a
 5. [SLAM with Cartographer](#slam-with-cartographer)
 6. [Teleoperation](#teleoperation)
 7. [Saving the Map](#saving-the-map)
-8. [RViz2 Visualization](#rviz2-visualization)
-9. [Troubleshooting](#troubleshooting)
-10. [Resources](#resources)
-11. [License](#license)
+
 ```
 ---
 
