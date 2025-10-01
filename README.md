@@ -107,7 +107,7 @@ This repository documents the step-by-step setup and bringup process for using a
 
 - ROS 2 **Humble** installed on:
   - 🖥️ Remote PC (Ubuntu 22.04)
-  - 🐢 TurtleBot3 SBC (Raspberry Pi 4)
+  - 🐢 TurtleBot3 SBC (Raspberry Pi 4), Reference: https://emanual.robotis.com/docs/en/platform/turtlebot3/bringup/#bringup
 - `turtlebot3` ROS 2 packages installed:
   - `turtlebot3_bringup`
   - `turtlebot3_cartographer`
