@@ -263,7 +263,7 @@ sudo apt install ros-humble-teleop-twist-keyboard
 2. Launch teleop:
 
 ```bash
-ros2 run teleop_twist_keyboard teleop_twist_keyboard
+ros2 run turtlebot3_teleop teleop_keyboard
 ```
 You can now control your robot using W/A/S/D keys.
 
@@ -283,3 +283,20 @@ This will save two files in your home directory:
 - real_map.pgm
 
 You can use these later for navigation.
+
+### Launch Navigation with the Saved Map (on Remote PC)
+
+Use the full path to your saved map file:
+
+```bash
+ros2 launch turtlebot3_navigation2 navigation2.launch.py \
+map:=/home/fnajihahma/real_map.yaml
+```
+
+Replace /home/fnajihahma/real_map.yaml with your actual full path if different.
+
+This will:
+- Load the map
+- Bring up Nav2 stack
+- Allow RViz2 to set goals
+
