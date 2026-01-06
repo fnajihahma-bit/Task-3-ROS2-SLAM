@@ -196,7 +196,7 @@ source ~/.bashrc
 1. SSH into the SBC from your Remote PC:
 
 ```bash
-ssh uitm@10.9.10.153
+ssh uitm@10.9.10.72 (it will change if not connected within 2 weeks)
 ```
 
 2. Run the bringup:
@@ -213,6 +213,14 @@ If .bashrc is correctly set, this will launch all essential TurtleBot3 nodes (se
 ```bash
 ros2 launch turtlebot3_cartographer cartographer.launch.py
 ```
+To map with a real TurtleBot3 Waffle, run this exact command on Remote PC:
+
+```bash
+ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=False
+```
+⚠️ Important
+
+Do NOT use True and Make sure Gazebo is closed!
 
 This will:
 
